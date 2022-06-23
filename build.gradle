@@ -17,3 +17,7 @@ dependencies {
 	implementation group: 'org.apache.poi', name: 'poi', version: '5.2.2'
 	testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.8.2'
 }
+
+test {
+	useJUnitPlatform()
+}
