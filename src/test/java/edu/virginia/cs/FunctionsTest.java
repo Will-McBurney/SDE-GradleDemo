@@ -1,8 +1,10 @@
-package edu.virginia.cs.mcburney;
+package edu.virginia.cs;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
+
+import edu.virginia.cs.Functions;
 
 public class FunctionsTest {
 

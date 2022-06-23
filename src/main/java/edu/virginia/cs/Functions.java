@@ -1,4 +1,4 @@
-package edu.virginia.cs.mcburney;
+package edu.virginia.cs;
 
 public class Functions {
 	public static void main(String[] args) {
