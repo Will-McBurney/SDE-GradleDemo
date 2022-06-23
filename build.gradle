@@ -3,7 +3,7 @@ apply plugin: 'eclipse'
 
 jar {
 	manifest {
-		attributes 'Main-Class': 'edu.virginia.cs.mcburney.Functions'
+		attributes 'Main-Class': 'edu.virginia.cs.Functions'
 	}
 }
 
