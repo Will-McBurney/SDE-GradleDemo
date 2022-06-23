@@ -16,6 +16,11 @@ public class Functions {
 			System.err.println("ERROR: Your arguments must be numbers. Please try again!");
 			System.exit(0);
 		}
+		System.out.println("Sum: " + sum(x, y));
+		System.out.println("Product: " + product(x, y));
+		System.out.println("Arithmetic Mean: " + average(x,y));
+		System.out.println("Geometric Mean: " + geometricMean(x, y));
+		System.out.println("Harmonic Mean: " + harmonicMean(x, y));
 	}
 	
 	public static double sum(double x, double y) {
@@ -31,7 +36,7 @@ public class Functions {
 	}
 	
 	public static double geometricMean(double x, double y) {
-		return product(x, y)/2.0;
+		return Math.sqrt(product(x, y));
 	}
 	
 	public static double harmonicMean(double x, double y) {
