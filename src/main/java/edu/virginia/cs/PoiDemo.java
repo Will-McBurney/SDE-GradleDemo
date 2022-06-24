@@ -35,7 +35,6 @@ public class PoiDemo {
 		System.out.println("first row: " + mysheet.getFirstRowNum() + " - last row: " + mysheet.getLastRowNum());
 		
 		//Get the Cell Style of very cell:
-		System.out.println("contents: " + mysheet.getRow(0).getCell(0).getStringCellValue() + "\tType" + mysheet.getRow(0).getCell(0).getCellType());
 		System.out.println("contents: " + mysheet.getRow(0).getCell(1).getStringCellValue() + "\tType: " + mysheet.getRow(0).getCell(1).getCellType());
 		System.out.println("contents: " + mysheet.getRow(1).getCell(0).getNumericCellValue() + "\tType: " + mysheet.getRow(1).getCell(0).getCellType());
 		System.out.println("contents: " + mysheet.getRow(1).getCell(1).getCellFormula() + "\tType: " + mysheet.getRow(1).getCell(1).getCellType());

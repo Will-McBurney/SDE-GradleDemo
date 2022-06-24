@@ -2,9 +2,15 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 
 jar {
+	duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+	
 	manifest {
-		attributes 'Main-Class': 'edu.virginia.cs.Functions'
-	}
+		attributes 'Main-Class': 'edu.virginia.cs.PoiDemo'
+	}    
+	
+	from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
 }
 
 repositories {
